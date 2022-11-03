@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import os
 
-path = r'D:\ashikh\lit\data'    # Путь к csv файлам
+path = r'\data'    # Путь к csv файлам
 ip = ''
 inital_db = ''
 login = ''
