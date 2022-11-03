@@ -3,10 +3,10 @@ from sqlalchemy import create_engine
 import os
 
 path = r'D:\ashikh\lit\data'    # Путь к csv файлам
-ip = '192.168.100.127'
-inital_db = 'testDB'
-login = 'postgres'
-password = 'absolut'
+ip = ''
+inital_db = ''
+login = ''
+password = ''
 nameSchema = 'shikhaldin'
 pgsql_con = create_engine(f'postgresql://{login}:{password}@{ip}/{inital_db}')
 
